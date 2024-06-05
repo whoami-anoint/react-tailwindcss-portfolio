@@ -156,6 +156,20 @@ const AppHeader = () => {
 						About Me
 					</Link>
 					<Link
+						to="/poem"
+						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						aria-label="Poem"
+					>
+						Poem
+					</Link>
+					<Link
+						to="/blog"
+						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						aria-label="Blog"
+					>
+						Blog
+					</Link>
+					<Link
 						to="/contact"
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Contact"
@@ -163,13 +177,6 @@ const AppHeader = () => {
 						Contact
 					</Link>
 
-					<Link
-						to="/poem"
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
-						aria-label="Poem"
-					>
-						Poem
-					</Link>
 				</div>
 
 				{/* Header right section buttons */}

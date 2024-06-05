@@ -1,8 +1,12 @@
 const selectOptions = [
 	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
+	'Jenkins',
+	'Ansible',
+	'Teraform',
+	'System Monitoring',
+	'Android Apk Deployment',
+	'Cybersecurity & Bughunting'
+
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {
