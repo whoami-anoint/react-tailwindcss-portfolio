@@ -1,38 +1,13 @@
-import AboutMeBio from '../components/about/AboutMeBio';
-import AboutCounter from '../components/about/AboutCounter';
-import { AboutMeProvider } from '../context/AboutMeContext';
-import { motion } from 'framer-motion';
+// Poem.jsx
+import React from 'react';
 
 const About = () => {
-	return (
-		<AboutMeProvider>
-			<motion.div
-				initial={{ opacity: 0 }}
-				animate={{ opacity: 1, delay: 1 }}
-				exit={{ opacity: 0 }}
-				className="container mx-auto"
-			>
-				<AboutMeBio />
-			</motion.div>
-
-			{/** Counter without paddings */}
-			<motion.div
-				initial={{ opacity: 0 }}
-				animate={{ opacity: 1, delay: 1 }}
-				exit={{ opacity: 0 }}
-			>
-				<AboutCounter />
-			</motion.div>
-
-			<motion.div
-				initial={{ opacity: 0 }}
-				animate={{ opacity: 1, delay: 1 }}
-				exit={{ opacity: 0 }}
-				className="container mx-auto"
-			>
-			</motion.div>
-		</AboutMeProvider>
-	);
+  return (
+    <div>
+      <h2>Blog Title</h2>
+      <p>This is where your blog goes.</p>
+    </div>
+  );
 };
 
 export default About;

@@ -14,6 +14,8 @@ const Home = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
 const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 const Poem = lazy(() => import('./pages/Poem'));
+const Blog = lazy(() => import('./pages/Blog'));
+
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />
               <Route path="poem" element={<Poem />} />
+              <Route path="blog" element={<Blog />} />
+
             </Routes>
           </Suspense>
           <AppFooter />
